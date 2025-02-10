@@ -1,0 +1,20 @@
+Education
+    Collège :
+        Brevet mention très bien
+    Stage orange labs :
+        j'ai appris des connaissances de base sur le fonctionnement d'un FAI
+    Lycée bréquigny :
+        Fillère générle : Terminale spécialité cinéma (lien projet film de bac)
+
+Formation : Tremplin numérique
+    Phase 1 :
+        Environement numérique : Travaux sur tableur et traitement de texte. (pix niv 5)
+        Algorithmie : Création de jeu sur scratch. (lien projet monarch ascention)
+        Photo : Création d'un photo reportage. (lien projet photo reportage)
+        Conception et frabication d'objets 2D et 3D. (lien projet labybille)
+        Atelier médiation du numérique.
+
+    Phase 2 :
+        Web : html & css avec le mooc d'open classroom qui à permis de créer un magnifique site : celui sur lequel vous vous trouvez !! (lien projet web)
+        Python & codage : (lien projet arduino)
+        Sécurité informatique : MOOC de l'ANSSI. (lien certificat)

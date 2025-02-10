@@ -1,0 +1,42 @@
+Projets :
+    Film de bac :
+
+        Cadreur sur le film EOS avec le lycée brequigny.
+
+        Compétences acquises :
+        
+        Manier une caméra, cadrer un plan, utiliser un trepieds, faire du montage vidéo, fonctionner avec une équipe et un planning.
+
+    Photoreportage :
+
+        Reportage photo sur les feuilles et les fleurs en automne, notamment au parc des Gayeulles et du Thabor.
+
+        Compétences acquises :
+                Canva & présenation orale
+            
+    Labybille :
+
+        Créer un jeu de labyrinthe à finir avec une bille en combinant conception 2D et 3D!
+
+        Compétences acquises:
+                Inkscape
+                Tinkercad
+                Impression 3D
+                Découpeuse laser
+                Découpeuse vinyle
+    
+    Site web:
+
+        Créer un site web pour me mettre en avant dans mon parcours professionnel.
+
+        Compétences acquises :
+            HTML
+            CSS
+
+    Arduino :
+
+        Créer des systèmes automatiques
+
+        Compétences acquises:
+            Python
+            Codage en blocs
