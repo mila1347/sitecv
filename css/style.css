@@ -164,7 +164,8 @@ img {
     }
     
     main {
-        padding: 0;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     .Header a {
@@ -199,7 +200,8 @@ img {
     }
 
     main {
-        padding: 0;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     .Header a {
