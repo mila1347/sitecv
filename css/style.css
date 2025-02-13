@@ -166,7 +166,7 @@ img {
     main {
         padding-top: 40px;
         padding-bottom: 40px;
-        padding: 0%;
+        padding-inline: 0px;
     }
 
     .Header a {
@@ -203,7 +203,7 @@ img {
     main {
         padding-top: 40px;
         padding-bottom: 40px;
-        padding: 0%;
+        padding-inline: 0px;
     }
 
     .Header a {
