@@ -89,7 +89,7 @@
     color: transparent;
 }
 
-    .hoverimage div:hover {
+    .hoverimage div {
     max-height: 300px;
 }
 
