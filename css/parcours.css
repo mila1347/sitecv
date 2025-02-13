@@ -84,4 +84,9 @@
         flex-direction: column;
     }
 
+    #imgs, #imgs2 {
+    background-color: transparent;
+    color: transparent;
+}
+
 }
