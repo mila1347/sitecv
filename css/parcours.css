@@ -89,4 +89,8 @@
     color: transparent;
 }
 
+    .hoverimage div:hover {
+    max-height: 300px;
+}
+
 }
