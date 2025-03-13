@@ -5,7 +5,7 @@ div {
 .projets div {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 #filmbac div, #photoreportage div, #arduino div, #jeuscratch div, #labybille div, #siteweb div {

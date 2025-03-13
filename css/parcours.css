@@ -12,7 +12,7 @@
     background-color: transparent;
 }
 
-#imgs, #imgs2 {
+#imgs, #imgs2, #imgs3 {
     text-align: center;
     color: #9270ff;
     font-weight: 500;
@@ -24,7 +24,7 @@
     background-color: rgb(201, 205, 205);
 }
 
-#imgs:hover, #imgs2:hover {
+#imgs:hover, #imgs2:hover, #imgs3:hover {
     background-color: transparent;
     color: transparent;
 }
