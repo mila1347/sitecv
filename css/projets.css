@@ -5,11 +5,22 @@ div {
 .projets div {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
-#filmbac div, #photoreportage div, #arduino div, #jeuscratch div, #labybille div, #siteweb div {
-    display: block;
+#image-liste {
+    flex-direction: row !important;
+}
+
+#filmbac div,
+#photoreportage div,
+#arduino div,
+#jeuscratch div,
+#labybille div,
+#siteweb div,
+#berryconnect div
+{
+    display: flex;
+    flex-direction: column;
 }
 
 #jeuscratch a:hover, #photoreportage a:hover {
@@ -20,10 +31,23 @@ div {
     opacity: 85%;
 }
 
+@media all and (min-width:1051px) and (max-width:1150px) {
+
+    #image-liste {
+        flex-direction: column !important;
+    }
+    
+}
+
 @media all and (max-width:1050px) {
 
     .projets div {
         flex-direction: column;
     }
+
+    #image-liste {
+        flex-direction: column !important;
+    }
+    
 
 }

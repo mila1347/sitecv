@@ -37,7 +37,7 @@ main {
     padding: 80px;
     margin: auto;
     max-width: 1000px;
-    background-color: #DFF8DD;
+    background-color: #ddf8ed;
 }
 
 div {
@@ -45,7 +45,7 @@ div {
 }
 
 header {
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     border-bottom: solid 2px lightgrey;
 }
 
@@ -88,33 +88,50 @@ em {
     font-weight: 450;
 }
 
+header {
+
+/* https://smoothshadows.com/#djEsMyw1LDAuMDgsMCw1MiwwLCMwMzA3MTIsI2YzZjRmNiwjZmZmZmZmLDI%3D */
+box-shadow: 0px 2px 0px rgba(3, 7, 18, 0.08),
+  0px 8px 0px rgba(3, 7, 18, 0.08),
+  0px 19px 0px rgba(3, 7, 18, 0.08),
+  0px 33px 0px rgba(3, 7, 18, 0.08),
+  0px 52px 0px rgba(3, 7, 18, 0.08);
+
+}
+
 .Header a {
     font-size: 1.5em;
     font-family: 'Exo 2';
     font-weight: 200;
-    color: #717171;
-    padding: 10px;
+    color: #011638;
     align-items: center;
     background-color: unset;
     border-radius: unset;
     text-decoration: none;
-    border-inline: solid 5px lightgrey;
-    margin: auto;
+    border-inline: solid 5px #011638;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-inline: 10px;
+    padding: 10px;
     border-radius: 35px;
 }
 
 .Header a:hover {
     color: #a7a7a7;
+    padding-inline: 20px;
+    margin-inline: 0px;
 }
 
 #indexlink {
-    background-color: rgb(226, 228, 228);
+    background-color: rgb(255, 255, 255);
     border-radius: 35px;
     flex-wrap: nowrap;
+    border-inline : solid 5px #011638;
+    text-decoration: underline;
 }
 
 #indexlink:hover {
-    color: #8da6a6;
+    color: #a7a7a7;
 }
 
 #nav1 {
