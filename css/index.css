@@ -14,11 +14,23 @@
     font-size: 1.3em;
 }
 
-@media all and (max-width:1050px) {
+@media all and (max-width:1050px) and (min-width:500px) {
 
     .presentation div {
         flex-direction: column;
         align-items: center;
     }
     
+}
+
+@media all and (max-width:500px) {
+
+    .presentation div {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #presentation {
+        margin: 20px;
+    }
 }

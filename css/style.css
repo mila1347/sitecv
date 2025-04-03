@@ -176,10 +176,6 @@ img {
     nav {
         margin-inline: 0;
     }
-
-    ul {
-        padding: 0;
-    }
 }
 
 @media all and (max-width:650px) and (min-width:500px) {
@@ -214,10 +210,6 @@ img {
         margin-inline: 0;
     }
 
-    ul {
-        padding: 0;
-    }
-
     div {
         margin: 10px;
     }
@@ -241,6 +233,7 @@ img {
         padding-top: 40px;
         padding-bottom: 40px;
         padding-inline: 0px;
+        border-inline: solid rgba(1, 22, 56, 0.75) 15px;
     }
 
     .Header a {
@@ -267,10 +260,6 @@ img {
         margin-inline: 0;
     }
 
-    ul {
-        padding: 0;
-    }
-
     div {
         margin: 10px;
     }
@@ -294,6 +283,7 @@ img {
         padding-top: 40px;
         padding-bottom: 40px;
         padding-inline: 0px;
+        border-inline:  rgba(1, 22, 56, 0.75) 10px;
     }
 
     .Header a {
@@ -318,10 +308,6 @@ img {
 
     nav {
         margin-inline: 0;
-    }
-
-    ul {
-        padding: 0;
     }
 
     div {
