@@ -9,6 +9,7 @@ div {
 
 #image-liste {
     flex-direction: row !important;
+    display: flex !important;
 }
 
 #filmbac div,
@@ -19,8 +20,7 @@ div {
 #siteweb div,
 #berryconnect div
 {
-    display: flex;
-    flex-direction: column;
+    display: block;
 }
 
 #jeuscratch a:hover, #photoreportage a:hover {

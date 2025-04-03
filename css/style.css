@@ -14,8 +14,9 @@ h1 {
     font-family: 'Josefin Sans';
     font-weight: 700;
     text-align: center;
-    color: #9270ff;
+    color: #011638;
     padding-bottom: 35px;
+    padding-top: 35px;
 }
 
 h2 {
@@ -37,7 +38,7 @@ main {
     padding: 80px;
     margin: auto;
     max-width: 1000px;
-    background-color: #ddf8ed;
+    border-inline: solid rgba(1, 22, 56, 0.75) 30px;
 }
 
 div {
@@ -45,8 +46,7 @@ div {
 }
 
 header {
-    background-color: #ffffff;
-    border-bottom: solid 2px lightgrey;
+    background-color: #011638;
 }
 
 nav {
@@ -90,53 +90,48 @@ em {
 
 header {
 
-/* https://smoothshadows.com/#djEsMyw1LDAuMDgsMCw1MiwwLCMwMzA3MTIsI2YzZjRmNiwjZmZmZmZmLDI%3D */
-box-shadow: 0px 2px 0px rgba(3, 7, 18, 0.08),
-  0px 8px 0px rgba(3, 7, 18, 0.08),
-  0px 19px 0px rgba(3, 7, 18, 0.08),
-  0px 33px 0px rgba(3, 7, 18, 0.08),
-  0px 52px 0px rgba(3, 7, 18, 0.08);
+/* https://smoothshadows.com/#djEsMSw1LDAuNzUsMCw2MCwwLCMwMTE2MzgsI2ZmZmZmZiwjZmZmZmZmLDI%3D */
+box-shadow: 0px 2px 0px rgba(1, 22, 56, 0.15),
+  0px 10px 0px rgba(1, 22, 56, 0.30),
+  0px 22px 0px rgba(1, 22, 56, 0.45),
+  0px 38px 0px rgba(1, 22, 56, 0.60),
+  0px 60px 0px rgba(1, 22, 56, 0.75);
+
 
 }
 
 .Header a {
     font-size: 1.5em;
-    font-family: 'Exo 2';
-    font-weight: 200;
-    color: #011638;
+    font-family: 'Josefin Sans';
+    font-weight: 100;
+    color: white;
     align-items: center;
     background-color: unset;
-    border-radius: unset;
     text-decoration: none;
-    border-inline: solid 5px #011638;
+    border-inline: solid 5px white;
     margin-top: auto;
     margin-bottom: auto;
     margin-inline: 10px;
-    padding: 10px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-inline: 10px;
     border-radius: 35px;
 }
 
 .Header a:hover {
-    color: #a7a7a7;
     padding-inline: 20px;
     margin-inline: 0px;
 }
 
 #indexlink {
-    background-color: rgb(255, 255, 255);
+    background-color:#011638;
     border-radius: 35px;
     flex-wrap: nowrap;
-    border-inline : solid 5px #011638;
-    text-decoration: underline;
-}
-
-#indexlink:hover {
-    color: #a7a7a7;
+    text-decoration: underline 1px;
 }
 
 #nav1 {
-    font-weight: 500;
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 
 img {
@@ -144,7 +139,7 @@ img {
     max-height: 450px;
     border-radius: 20% 20% 20% / 20% 20% 20% 20%;
     padding: 5px;
-    background-color: #A185FF;
+    background-color: #011638;
 }
 
 @media all and (min-width:996px) and (max-width:1135px) {
@@ -152,13 +147,26 @@ img {
     .Header a {
         font-size: 1.4em;
     }
-        
+     
+    .Header a:hover {
+        color: #a7a7a7;
+        padding-inline: unset;
+        margin-inline: 10px;
+        padding: 10px;
+    }
 }
 
 @media all and (min-width:650px) and (max-width:996px) {
 
     .Header a {
-        font-size: 1.35em;
+        font-size: 1.25em;
+    }
+
+    .Header a:hover {
+        color: #a7a7a7;
+        padding-inline: unset;
+        margin-inline: 10px;
+        padding: 10px;
     }
 
     main {
@@ -177,7 +185,7 @@ img {
 @media all and (max-width:650px) and (min-width:500px) {
 
     body {
-        font-size: 1.25em;
+        font-size: 1.15em;
     }
     
     main {
@@ -187,7 +195,19 @@ img {
     }
 
     .Header a {
-        font-size: 1.10em;
+        font-size: 1em;
+        border-inline: solid 3px;
+    }
+
+    #indexlink {
+        text-decoration: underline 0.5px;
+    }
+
+    .Header a:hover {
+        color: #a7a7a7;
+        padding-inline: unset;
+        margin-inline: 10px;
+        padding: 10px;
     }
 
     nav {
@@ -211,10 +231,10 @@ img {
     }
 }
 
-@media all and (max-width:500px) {
+@media all and (max-width:500px) and (min-width:410px) {
 
     body {
-        font-size: 1.10em;
+        font-size: 1em;
     }
 
     main {
@@ -224,7 +244,76 @@ img {
     }
 
     .Header a {
-        font-size: 0.95em;
+        font-size: 1em;
+        border-inline: solid 3px;
+    }
+
+    #indexlink {
+        text-decoration: underline 0.5px;
+    }
+
+    .Header a:hover {
+        color: #a7a7a7;
+        padding-inline: unset;
+        margin-inline: 10px;
+        padding: 10px;
+    }
+
+    #nav1 {
+        font-size: 1.25em;
+    }
+
+    nav {
+        margin-inline: 0;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    div {
+        margin: 10px;
+    }
+    
+    p {
+        margin: 10px;
+    }
+
+    img {
+        max-width: 250px;
+    }
+}
+
+@media all and (max-width:410px) {
+
+    body {
+        font-size: 0.9em;
+    }
+
+    main {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-inline: 0px;
+    }
+
+    .Header a {
+        font-size: 0.9em;
+        border-inline: solid 2px;
+    }
+
+    #indexlink {
+        text-decoration: underline 0.5px;
+    }
+
+    .Header a:hover {
+        color: #a7a7a7;
+        padding-inline: unset;
+        margin-inline: 10px;
+        padding: 10px;
+    }
+
+    #nav1 {
+        font-size: 1.25em;
     }
 
     nav {
