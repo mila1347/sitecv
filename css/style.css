@@ -59,19 +59,21 @@ nav {
 }
 
 a {
-    text-decoration: none;
-    color: #875b9a;
+    color: #29068a;
     font-weight: 500;
+    font-style: italic;
 }
 
 a:hover {
-    background-color: #bad1b8;
+    text-decoration: none;
+    background-color: #011638;
+    color: white;
     border-radius: 10px;
 }
 
 a:active {
-    color: #9270ff;
-    background-color: rgb(201, 205, 205);
+    color: white;
+    background-color: #466eaf;
 }
 
 li {
