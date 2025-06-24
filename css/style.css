@@ -320,6 +320,10 @@ img {
         margin: 10px;
     }
 
+    .small {
+        margin: 20px;
+    }
+
     img {
         max-width: 250px;
     }

@@ -33,4 +33,9 @@
     #presentation {
         margin: 20px;
     }
+
+    .presentation span {
+        padding: 0px;
+        width: unset;
+    }
 }
