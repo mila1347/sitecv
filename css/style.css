@@ -142,6 +142,7 @@ img {
     border-radius: 20% 20% 20% / 20% 20% 20% 20%;
     padding: 5px;
     background-color: #011638;
+    object-fit: cover;
 }
 
 @media all and (min-width:996px) and (max-width:1135px) {
